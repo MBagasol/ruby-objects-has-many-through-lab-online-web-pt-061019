@@ -1,3 +1,3 @@
-class Artist 
+class Song 
   
 end
