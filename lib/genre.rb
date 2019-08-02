@@ -13,7 +13,6 @@ class Genre
   end
   
   def songs
-    # iterate through all songs created and finds songs with that self.genre
     Song.all.select {|song| song.genre == self}
   end
   
